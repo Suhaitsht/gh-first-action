@@ -1,11 +1,11 @@
-name:Firts workflow
+name: Firts workflow
 on: workflow_dispatch
 jobs:
   first-job:
     runs-on: windows-latest
     steps:
-      -name: print greeting
+      - name: print greeting
         run: echo "Hello World!"
-      -name: print goodbye
+      - name: print goodbye
         run: echo "Done -bye!"
     
